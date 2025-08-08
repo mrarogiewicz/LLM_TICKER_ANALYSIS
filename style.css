@@ -1,0 +1,15 @@
+#chat-container::-webkit-scrollbar, .ticker-carousel::-webkit-scrollbar { width: 6px; height: 6px; }
+#chat-container::-webkit-scrollbar-track, .ticker-carousel::-webkit-scrollbar-track { background: transparent; }
+#chat-container::-webkit-scrollbar-thumb, .ticker-carousel::-webkit-scrollbar-thumb { background-color: rgba(0,0,0,0.1); border-radius: 10px; }
+.dark #chat-container::-webkit-scrollbar-thumb, .dark .ticker-carousel::-webkit-scrollbar-thumb { background-color: rgba(255,255,255,0.1); }
+.chart-host-container {
+    position: relative; height: 300px; width: 100%; border-radius: 0.5rem;
+    border: 1px solid #e2e8f0;
+    padding: 1rem;
+}
+.dark .chart-host-container { border-color: #334155; }
+.step-icon {
+    height: 2rem; width: 2rem;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 9999px; flex-shrink: 0;
+}
