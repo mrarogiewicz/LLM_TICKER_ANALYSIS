@@ -82,7 +82,7 @@ import { createApp, ref, nextTick, watch, onMounted, onUnmounted, computed } fro
         }
 
         // --- Settings State ---
-        const apiKey = ref("");
+        const apiKey = "AIzaSyCvtMPDKK4oT_-1RB0MBOYoDwPjme6akoY";
         const githubToken = ref("");
         const modelName = ref("gemini-2.5-flash-lite");
         const apiUrl = computed(() => `https://generativelanguage.googleapis.com/v1beta/models/${modelName.value}:generateContent?key=${apiKey.value}`);
